@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightblue;
+    padding: 25px;
+    /* height: 100%; */
+}
+
+.square {
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+}
+
+.article {
+    padding: 25px;
+}
+
+.rainbow-1 {
+    height: 25vh;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, red,yellow,orange, purple, blue,green);
+}
+
+.rainbow-2 {
+    height: 25vh;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, blue, green, purple, red);
+}
+
+.rainbow-3 {
+    height: 25vh;
+    /* background-color: red; */
+    background-image: linear-gradient( violet,purple,orange, aqua, blue,green);
+}
+
+
+.rainbow-4 {
+    height: 25vh;
+    /* background-color: red; */
+    background-image: linear-gradient(90deg,yellow,orange, purple, blue,green);
+}
+
+button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+button:active {
+    transition: scale(5,5);
+}
